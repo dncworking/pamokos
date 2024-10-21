@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camper Cafe</title>
+    <style>
+        body {
+            background-image: url('coffee-beans-background.jpg'); /* Add your background image here */
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: black;
+        }
+        .menu {
+            background-color: #d2b48c;
+            width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+            border: 2px solid #8b4513;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            font-family: 'Georgia', serif;
+            font-size: 36px;
+            margin-bottom: 5px;
+        }
+        h2 {
+            font-family: 'Georgia', serif;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-style: italic;
+            margin-top: 5px;
+        }
+        hr {
+            border: none;
+            border-top: 2px solid #8b0000;
+            margin: 20px 0;
+        }
+        .menu-section {
+            margin: 20px 0;
+        }
+        .menu-section h2 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .menu-section img {
+            width: 30px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+            font-size: 18px;
+        }
+        .footer {
+            font-size: 14px;
+            margin-top: 20px;
+        }
+        .footer a {
+            color: #8b4513;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu">
+        <h1>CAMPPER CAFE</h1>
+        <p>Est. 2020</p>
+        <hr>
+
+        <div class="menu-section">
+            <h2>Coffee <img src="coffee-icon.png" alt="coffee icon"></h2>
+            <div class="menu-item">
+                <span>French Vanilla</span>
+                <span>3.00</span>
+            </div>
+            <div class="menu-item">
+                <span>Caramel Macchiato</span>
+                <span>3.75</span>
+            </div>
+            <div class="menu-item">
+                <span>Pumpkin Spice</span>
+                <span>3.50</span>
+            </div>
+            <div class="menu-item">
+                <span>Hazelnut</span>
+                <span>4.00</span>
+            </div>
+            <div class="menu-item">
+                <span>Mocha</span>
+                <span>4.50</span>
+            </div>
+        </div>
+
+        <div class="menu-section">
+            <h2>Desserts <img src="dessert-icon.png" alt="dessert icon"></h2>
+            <div class="menu-item">
+                <span>Donut</span>
+                <span>1.50</span>
+            </div>
+            <div class="menu-item">
+                <span>Cherry Pie</span>
+                <span>2.75</span>
+            </div>
+            <div class="menu-item">
+                <span>Cheesecake</span>
+                <span>3.00</span>
+            </div>
+            <div class="menu-item">
+                <span>Cinnamon Roll</span>
+                <span>2.50</span>
+            </div>
+        </div>
+
+        <hr>
+        <div class="footer">
+            <a href="#">Visit our website</a><br>
+            123 Free Code Camp Drive
+        </div>
+    </div>
+
+</body>
+</html>
