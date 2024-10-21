@@ -1,0 +1,30 @@
+    body{
+       
+        margin:  0px 30%;
+    }
+
+.first {
+    font-weight: bold;
+    
+}
+
+input{
+    margin-top: 20px;
+    
+    
+}
+
+.comments {
+padding: 20px;
+margin-top: 2%;
+}
+
+
+
+.ff{
+   margin-left:70px;
+   margin-bottom:20px ; 
+}
+p {
+font-weight: bold;
+}
