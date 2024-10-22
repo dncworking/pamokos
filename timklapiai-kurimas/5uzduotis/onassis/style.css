@@ -1,0 +1,39 @@
+body {
+  max-width: 900px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.dalis {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 230px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+article {
+  border-style: 2px solid;
+}
+figure {
+  text-align: center;
+}
+
+.vidur {
+  border-style: outset;
+}
+
+figure {
+  border-style: outset;
+}
+figcaption {
+  background-color: grey;
+}
+footer {
+  text-align: center;
+}
