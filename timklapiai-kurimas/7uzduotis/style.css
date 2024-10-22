@@ -1,0 +1,42 @@
+body {
+  width: 900px;
+  margin: auto;
+}
+
+.red {
+  color: brown;
+}
+.lightred {
+  color: red;
+}
+p {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.reikia {
+  font-weight: lighter;
+}
+body {
+  background-color: #eaedd5;
+}
+nav {
+  justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  background-color: brown;
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+img {
+  float: left;
+  width: 250px;
+}
+section {
+  clear: left;
+}
+a {
+  color: white;
+}
