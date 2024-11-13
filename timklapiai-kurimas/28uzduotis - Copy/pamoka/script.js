@@ -1,0 +1,10 @@
+"use strict";
+const pirmadienis = parseInt(prompt("Kiek pamoku yra pirmadieni?"));
+const antradienis = parseInt(prompt("Kiek pamoku yra antradieni?"));
+const treciadienis = parseInt(prompt("Kiek pamoku yra treciadieni?"));
+const ketvirtadienis = parseInt(prompt("Kiek pamoku yra ketvirtadieni?"));
+const penktadienis = parseInt(prompt("Kiek pamoku yra penktadieni?"));
+const suma = pirmadienis + antradienis + treciadienis + ketvirtadienis + penktadienis;
+const min = 45;
+const bendras = suma * min;
+console.log("pamoku skaicius: " + suma + "\ntai sudaro minuciu: " + bendras);

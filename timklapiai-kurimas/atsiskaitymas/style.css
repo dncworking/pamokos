@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #7a8da0;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  display: inline-block;
+  margin: 0 15px;
+  color: white;
+  cursor: pointer;
+  font-family: Josefin Sans;
+}
+
+article {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+article h1 {
+  font-size: 28px;
+  color: #333;
+}
+
+article p {
+  font-size: 16px;
+  color: #666;
+  font-family: Sour Gummy;
+}
+
+button {
+  background-color: #3c77c8;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin: 10px 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #3e8dc1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+section article {
+  display: inline-block;
+  width: 30%;
+  padding: 10px;
+  background-color: #272b41;
+}
+
+section article img {
+  width: 50px;
+  height: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+footer h1 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+footer {
+  background-color: #c7c4c4;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+}
+
+footer img {
+  width: 25px;
+  margin: 0 10px;
+}
+
+.footertwo {
+  background-color: #272b41;
+  color: white;
+}
+
+.book {
+  background-color: lightskyblue;
+  width: 150px;
+}
