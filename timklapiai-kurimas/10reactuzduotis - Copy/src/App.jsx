@@ -13,12 +13,12 @@ function App() {
       </div>
 
       <div className="row">
-        <div className="col-12 col-sm-6">
+        <div className="col-6">
           <PostImage />
           <PostContent />
         </div>
 
-        <div className="col-12 col-sm-6">
+        <div className="col-6">
           <PostImage />
           <PostContent />
         </div>

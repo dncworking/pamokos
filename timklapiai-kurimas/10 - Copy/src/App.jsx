@@ -2,12 +2,13 @@ import Header from "./components/Header";
 import PostImage from "./components/PostImage";
 import PostContent from "./components/PostContent";
 import Box from "./components/Box";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col">
+        <div className="col-12">
           <Header />
         </div>
       </div>
@@ -17,7 +18,6 @@ function App() {
           <PostImage />
           <PostContent />
         </div>
-
         <div className="col-12 col-sm-6">
           <PostImage />
           <PostContent />
@@ -25,23 +25,19 @@ function App() {
       </div>
 
       <div className="row">
-        <div className="col-3">
+        <div className="col-6 mb-2 col-sm-3">
           <Box />
         </div>
-
-        <div className="col-3">
+        <div className="col-6 mb-2 col-sm-3">
           <Box />
         </div>
-
-        <div className="col-3">
+        <div className="col-6 mb-2 col-sm-3">
           <Box />
         </div>
-
-        <div className="col-3">
+        <div className="col-6 mb-2 col-sm-3">
           <Box />
         </div>
       </div>
     </div>
   );
 }
-export default App;

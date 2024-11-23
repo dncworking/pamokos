@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "img": "https://th.bing.com/th/id/OIP.SB6c14134buv30P-yVB7yQHaE7?rs=1&pid=ImgDetMain",
+    "title": "Aš mokausi HTML",
+
+    "setLearnt": false
+  },
+  {
+    "id": "2",
+    "img": "https://colorlib.com/wp/wp-content/uploads/sites/2/wordpress-child-themes-506x335.jpg",
+    "title": "Aš mokausi CSS",
+
+    "setLearnt": false
+  },
+  {
+    "id": "3",
+    "img": "https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/2/13/1392314553457/Building-for-the-web-inte-006.jpg",
+    "title": "Aš mokausi JavaScript",
+
+    "setLearnt": false
+  }
+]
