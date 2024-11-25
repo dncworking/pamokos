@@ -1,10 +1,13 @@
-import "./PostImage.css";
+import catImage from "./images/cat.jpg";
+
 export default function PostImage() {
   return (
-    <img
-      src="\src\components\joe-caione-qO-PIF84Vxg-unsplash.jpg"
-      alt="Happy dog running on grass"
-      className="radius"
-    />
+    <div>
+      <img
+        src={catImage}
+        alt="Domestic cat"
+        className="header-img w-100 object-fit-cover"
+      />
+    </div>
   );
 }

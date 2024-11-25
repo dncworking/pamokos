@@ -1,14 +1,13 @@
-import "./PostContent.css";
-export default function Main() {
+export default function PostContent() {
   return (
-    <main>
+    <div>
       <h2>Post title</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, quisquam
-        et deserunt accusantium quas voluptas obcaecati possimus praesentium
-        laboriosam facilis, modi labore, veritatis aperiam. Assumenda magni
-        repellat sequi alias eos.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+        voluptatibus, harum, quas provident quibusdam, recusandae necessitatibus
+        ipsam mollitia pariatur dolor ullam voluptate facilis ea accusamus. Fuga
+        accusantium dignissimos earum quidem.
       </p>
-    </main>
+    </div>
   );
 }

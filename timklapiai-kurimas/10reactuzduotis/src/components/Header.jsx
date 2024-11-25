@@ -1,13 +1,29 @@
+// import "./Header.css";
+
+// export default function Header() {
+//   return (
+//     <header>
+//       <h1 className="header-title">Page title</h1>
+//       <img
+//         src="/components/images/header-cat.jpg"
+//         alt="Domestic cat"
+//         className="header-img w-100 object-fit-cover"
+//       />
+//     </header>
+//   );
+// }
+
 import "./Header.css";
+import headerCatImage from "./images/header-cat.jpg";
+
 export default function Header() {
   return (
     <header>
       <h1 className="header-title">Page title</h1>
-
       <img
-        src="\src\components\joe-caione-qO-PIF84Vxg-unsplash.jpg"
-        alt="Happy dog running on grass"
-        className="first"
+        src={headerCatImage}
+        alt="Domestic cat"
+        className="header-img w-100 object-fit-cover"
       />
     </header>
   );
