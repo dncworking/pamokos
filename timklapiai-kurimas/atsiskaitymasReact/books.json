@@ -1,0 +1,8 @@
+{
+  "id": 1,
+  "title": "Book artist",
+  "author": "Mark Pryor",
+  "category": "Literatūra",
+  "price": 19.99,
+  "cover": "src/assets/Book.jpg"
+}
